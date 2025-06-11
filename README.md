@@ -88,6 +88,8 @@ docker-compose exec back php artisan migrate
 docker-compose exec back php artisan db:seed
 ```
 
+В браузере открываем http://localhost
+
 ## Примеры запросов 
 
 ```http
