@@ -99,7 +99,7 @@ class DepartmentController extends Controller
         }
 
         $department->update([
-            'first_name' => $request->first_name,
+            'department_name' => $request->department_name,
         ]);
       
         return response()->json([
